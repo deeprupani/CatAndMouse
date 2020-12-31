@@ -18,9 +18,9 @@ function preload() {
 function setup() {
 
 
-    createCanvas(1000, 600);
+    createCanvas(930, 600);
     //create tom and jerry sprites here
-    garden = createSprite(450, 400, 100, 100);
+    garden = createSprite(450, 350, 100, 100);
     garden.addImage(gardenImage);
 
     Mouse = createSprite(100, 500, 10, 10);
